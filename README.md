@@ -22,8 +22,7 @@ import multiple_discord
 ## import例２
 
 ```
-
-C:\店舗
+フォルダ
 ├─multiple_discord
 │ └─multiple_discord.py
 └─main.py
