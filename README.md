@@ -1,12 +1,42 @@
-# 使い方
+# 初めに
+
 
 pipインストールに対応させていないため、  
 clone / ダウンロード / コードのコピー  
 のいずれかを使用し、コードを保存してください。  
   
-ファイル名は各自自由に決めてもらってもいいですが、importするときにそのファイル名を必ず使用してください。
+ファイル名は各自自由に決めてもらってもいいですが、importするときにそのファイル名を必ず使用してください。  
   
-importに関しては[こちら](https://qiita.com/karadaharu/items/37403e6e82ae4417d1b3)の記事を参考にしてください。
+## import例１
+
+```
+フォルダ
+├─multiple_discord.py
+└─main.py
+```
+
+```py
+import multiple_discord
+```
+
+## import例２
+
+```
+
+C:\店舗
+├─multiple_discord
+│ └─multiple_discord.py
+└─main.py
+```
+
+```py
+from multiple_discord import multiple_discord
+or
+import multiple_discord.multiplediscord
+```
+
+
+# 各メソッドの説明
 
 ## message
 
