@@ -30,8 +30,6 @@ import multiple_discord
 
 ```py
 from multiple_discord import multiple_discord
-or
-import multiple_discord.multiple_discord
 ```
 
 
